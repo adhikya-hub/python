@@ -1,0 +1,65 @@
+ {
+  "company": "TechNova Solutions",
+  "founded": 2018,
+  "isActive": true,
+  "headOffice": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": { "street": "MG Road", "building": "Tech Park Tower A", "floor": 8, "pincode": 560001 }
+  },
+  "branches": [
+    { "city": "Hyderabad", "employees": 35 },
+    { "city": "Chennai", "employees": 22 },
+    { "city": "Pune", "employees": 18 }
+  ],
+  "departments": [
+    {
+      "id": 1, "name": "Engineering", "budget": 4500000, "manager": "Rahul Sharma",
+      "employees": [
+        { "empId": 101, "name": "Rahul", "designation": "Frontend Developer", "skills": ["JavaScript", "React", "Node.js"], "salary": 85000, "experienceYears": 5 },
+        { "empId": 102, "name": "Sneha", "designation": "Backend Developer", "skills": ["Python", "Django", "PostgreSQL"], "salary": 90000, "experienceYears": 7 },
+        { "empId": 103, "name": "Karthik", "designation": "QA Engineer", "skills": ["Selenium", "Cypress"], "salary": 65000, "experienceYears": 3 }
+      ]
+    },
+    {
+      "id": 2, "name": "Design", "budget": 1200000, "manager": "Asha Reddy",
+      "employees": [
+        { "empId": 201, "name": "Asha", "designation": "UI Designer", "skills": ["Figma", "UI/UX"], "salary": 70000 },
+        { "empId": 202, "name": "Niharika", "designation": "UX Researcher", "skills": ["Research", "Wireframing"], "salary": 68000 }
+      ]
+    },
+    {
+      "id": 3, "name": "HR", "budget": 800000, "manager": "Pooja",
+      "employees": [
+        { "empId": 301, "name": "Pooja", "designation": "HR Manager", "salary": 75000 }
+      ]
+    }
+  ],
+  "projects": [
+    { "projectId": "P1001", "name": "School ERP", "status": "In Progress", "priority": "High", "deadline": "2026-08-30", "teamSize": 8, "technologies": ["React", "MongoDB", "Express"] },
+    { "projectId": "P1002", "name": "Loan Checker", "status": "Completed", "priority": "Medium", "deadline": "2026-01-15", "teamSize": 5, "technologies": ["Next.js", "PostgreSQL"] },
+    { "projectId": "P1003", "name": "Inventory AI", "status": "Planning", "priority": "High", "deadline": "2026-12-01", "teamSize": 6, "technologies": ["Python", "FastAPI", "Redis"] }
+  ],
+  "clients": [
+    { "clientId": 1, "name": "ABC Pvt Ltd", "location": "Hyderabad", "industry": "Education", "contractValue": 950000 },
+    { "clientId": 2, "name": "XYZ Corp", "location": "Chennai", "industry": "Finance", "contractValue": 1400000 },
+    { "clientId": 3, "name": "Delta Systems", "location": "Mumbai", "industry": "Retail", "contractValue": 780000 }
+  ],
+  "monthlyRevenue": [120000, 135000, 142000, 150000, 162000, 171000, 180000],
+  "monthlyExpenses": [80000, 91000, 94000, 99000, 105000, 111000, 118000],
+  "subscriptionPlans": [
+    { "plan": "Basic", "price": 999, "usersLimit": 5 },
+    { "plan": "Pro", "price": 2499, "usersLimit": 25 },
+    { "plan": "Enterprise", "price": 9999, "usersLimit": 999 }
+  ],
+  "interns": [
+    { "name": "Kiran", "college": "VTU", "stipend": 15000 },
+    { "name": "Priya", "college": "JNTU", "stipend": 18000 },
+    { "name": "Manoj", "college": "SRM", "stipend": 17000 }
+  ],
+  "trainingPrograms": [
+    { "title": "JavaScript Bootcamp", "durationWeeks": 6, "enrolled": 24 },
+    { "title": "React Advanced", "durationWeeks": 4, "enrolled": 18 },
+    { "title": "Node.js API Mastery", "durationWeeks": 5, "enrolled": 20 }
+  ]
+}
